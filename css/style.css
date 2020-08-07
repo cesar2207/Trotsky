@@ -409,3 +409,25 @@ div.atras_creditos{
     width: 15%;
     height: 5%;
 }
+div.boton_menu{
+    position: absolute;
+    top:94%;
+    left: 11%;
+    width: 15%;
+    height: 5%;
+}
+div.boton_menu_2{
+    position: absolute;
+    top:94%;
+    left: 15%;
+    width: 15%;
+    height: 5%;
+}
+a.menu1{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
