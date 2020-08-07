@@ -1,0 +1,411 @@
+@font-face {
+    font-family: 'kollektifregular';
+    src: url('../fonts/kollektif-webfont.woff2') format('woff2'),
+         url('../fonts\kollektif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kollektifbold';
+    src: url('../fonts/kollektif-bold-webfont.woff2') format('woff2'),
+         url('../fonts/kollektif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kollektifbold_italic';
+    src: url('../fonts/kollektif-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/kollektif-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kollektifitalic';
+    src: url('../fonts/kollektif-italic-webfont.woff2') format('woff2'),
+         url('../fonts\kollektif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body.inicio{
+    background:url(../images/portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.comencemos_container{
+    position: absolute;
+    width: 23%;
+    height: 26%;
+    top: 24%;
+    left: 65%;
+}
+img.comencemos{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+body.menu{
+    background:url(../images/menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.gif_container{
+    position: absolute;
+    width: 55%;
+    height: 90%;
+    top: 8%;
+    left: 45%;
+}
+img.cajita{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+a{
+    text-decoration: none;  
+}
+a.menu{
+    text-decoration: none;
+    color: black;
+    font-family:"kollektifbold";
+    width: 80%;
+    max-width: 100%;
+    font-size: 180%;
+    letter-spacing: 0.08em;
+}
+div.natalia{
+    position: absolute;
+    top: 30%;
+    left: 27.8%;
+}
+div.ramon{
+    position: absolute;
+    top: 35%;
+    left: 25.8%;
+}
+div.lado_b{
+    position: absolute;
+    top: 40%;
+    left: 26.5%;
+}
+div.trotsky{
+    position: absolute;
+    top: 44.5%;
+    left: 33.4%;
+}
+div.bonus{
+    position: absolute;
+    top: 53%;
+    left: 28%;
+}
+div.creditos{
+    position: absolute;
+    top: 67.5%;
+    left: 25.8%;
+}
+div.audio_menu{
+    position: absolute;
+    top: 80%;
+    left: 23.5%;
+}
+div.atras{
+    position: absolute;
+    top: 94%;
+    width: 10%;
+    height: 5%;
+}
+a.menu_boton1{
+    padding: 10% 25%;
+    background-color: rgb(255, 81, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+div.adelante{
+    position: absolute;
+    top:94%;
+    left: 90%;
+    width: 10%;
+    height: 5%;
+}
+a.menu_boton2{
+    padding: 10% 25%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+body.natalia{
+    background: url(../images/natalia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.gif_natalia{
+    position: absolute;
+    top: 0%;
+    height: 50%;
+    width: 55%;
+    left: 12%;
+}
+img.polaroid{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+div.audio_natalia{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+a.natalia_boton1{
+    padding: 10% 25%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+a.natalia_boton2{
+    padding: 10% 25%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+body.ramon{
+    background: url(../images/ramon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.gif_ramon{
+    position: absolute;
+    top: 18%;
+    height: 40%;
+    width: 30%;
+    left: 70%;
+}
+img.cigarro{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+div.audio_ramon{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+div.adelante_ramon{
+    position: absolute;
+    top:94%;
+    left: 81%;
+    width: 19%;
+    height: 5%;
+
+}
+a.ramon_boton1{
+    padding: 10% 25%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+a.ramon_boton2{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+body.lado_b{
+    background: url(../images/natalia_lado_b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.gif_natalia2{
+    position: absolute;
+    top: 18%;
+    height:20%;
+    width: 30%;
+    left: 30%;
+    transform: rotate(-6deg);
+}
+img.natalia{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+div.audio_natalia2{
+    position: absolute;
+    top: 85%;
+    left:35%;
+
+}
+a.natalia2_boton1{
+    padding: 10% 25%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+a.natalia2_boton2{
+    padding: 10% 25%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+body.trotsky{
+    background: url(../images/trotsky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.gif_trotsky{
+    position: absolute;
+    transform: rotate(10deg);
+    height: 25%;
+    width: 35%;
+    top: 17%;
+    left: 60%;
+}
+img.jardin{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+div.audio_trotsky{
+    position: absolute;
+    top: 78%;
+    left: 27%;
+}
+a.trotsky_boton1{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+a.trotsky_boton2{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+div.adelante_trotsky{
+    position: absolute;
+    top:94%;
+    left: 80%;
+    width: 20%;
+    height: 5%;
+}
+div.atras_trotsky{
+    position: absolute;
+    top:94%;
+    width: 15%;
+    height: 5%;
+}
+body.bonus{
+    background: url(../images/bonus_tracks.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.gif_bonus{
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    top: 10%;
+    left: 10.8%;
+}
+img.guitarrista{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+div.audio_bonus{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+div.audio_bonus2{
+    position: absolute;
+    top: 60%;
+    left: 60%; 
+}
+a.bonus_boton1{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}   
+a.bonus_boton2{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+body.creditos{
+    background: url(../images/creditos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+a.creditos_boton2{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+a.creditos_boton1{
+    padding: 5% 15%;
+    background-color: rgb(21, 255, 0);
+    color: black;
+    font-family:"kollektifregular";
+    font-size: 120%;
+    border-radius: 10%;
+}
+div.atras_creditos{
+    position: absolute;
+    top:94%;
+    width: 15%;
+    height: 5%;
+}
